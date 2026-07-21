@@ -1,0 +1,10 @@
+#program : 1
+def add_all(*args):
+   return sum(args)
+print(add_all(1,2,3))
+
+#Program - 2
+def show_info(**kwargs):
+  for key, value in kwargs.items():
+     print(f"{key}:{value}")
+show_info(name = "Alice",age = 25)
