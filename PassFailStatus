@@ -1,0 +1,8 @@
+scores = [72, 85, 90, 60, 45, 99, 38]
+result = []
+for score in scores:
+ status = 'Pass' if score >= 50 else 'Fail'
+ result.append({'Score' : score,'Status' : status})
+
+print(result)
+title of the program
