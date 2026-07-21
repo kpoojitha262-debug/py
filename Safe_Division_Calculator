@@ -1,0 +1,10 @@
+try:
+  a= float(input("Enter numerator: "))
+  b = float(input("Enter denominator: "))
+  result = a/b
+  print("Result:",result)
+except ValueError :
+    print("Please enter a valid numbers.")
+except ZeroDivisionError:
+    print("Denominator cannot be zero.")
+        
