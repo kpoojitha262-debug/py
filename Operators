@@ -1,0 +1,67 @@
+#Arithmetic operators:used to perform mathematical calcuations
+a=100
+b=20
+print("a+b:",a+b)
+print("a-b:",a-b)
+print("a*b:",a*b)
+print("a/b:",a/b)
+print("a%b:",a%b)
+print("a//b:",a//b)
+print()
+
+#Relational operators:Used to indicate the relation between two operands
+
+a=120
+b=20
+print("a<b:",a<b)
+print("a>b:",a>b)
+print("a>=b:",a>=b)
+print("a<=b:",a<=b)
+print("a==b:",a==b)
+print("a!=b:",a!=b)
+print()
+
+#Logical operators:perform logical operations
+a=True
+b=False
+print("A && B:", a and b)
+print("A OR B:",a or b)
+print("Not A:",not a)
+print()
+
+a=False
+b=True
+print("A && B:", a and b)
+print("A OR B:",a or b)
+print("Not A:",not a)
+print()
+
+a=True
+b=True
+print("A && B:", a and b)
+print("A OR B:",a or b)
+print()
+
+a=False
+b=False
+print("A && B:", a and b)
+print("A OR B:",a or b)
+print()
+
+#Assignment operators : to assign a values
+
+a=5
+print(a)
+a+=2
+print("a+=2:",a)
+a-=2
+print("a-=2:",a)
+a/=5
+print("a/=2:",a)
+a*=4
+print("a*=2:",a)
+a//=2
+print("a//=2:",a)
+a%=2
+print("a%=2:",a)
+print()
