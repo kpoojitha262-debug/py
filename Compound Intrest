@@ -1,0 +1,8 @@
+P=123.6
+R=4.4
+T=5.3
+A=P*(1+R/100)**T
+CI=A-P
+print("CI=",CI)
+print("A",A)
+print()
