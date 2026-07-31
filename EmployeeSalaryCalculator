@@ -1,0 +1,25 @@
+class Employee:
+
+    def __init__(self, name, basic_salary):
+        self.name = name
+        self.basic_salary = basic_salary
+
+    def calculate_salary(self):
+        hra = self.basic_salary * 0.20
+        da = self.basic_salary * 0.10
+
+        total_salary = self.basic_salary + hra + da
+
+        return total_salary
+
+    def display(self):
+        salary = self.calculate_salary()
+
+        print("Employee Name:", self.name)
+        print("Basic Salary:", self.basic_salary)
+        print("Total Salary:", salary)
+
+
+employee1 = Employee("Poojitha", 30000)
+
+employee1.display()
