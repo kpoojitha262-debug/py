@@ -1,0 +1,13 @@
+class Student:
+    def __init__(self,name,marks):
+        self.name = name
+        self.marks = marks
+
+    def check_result(self):
+        if self.marks >= 40:
+            print("Pass")
+        else:
+            print("Fail")
+
+s1 = Student("Poojitha", 75)
+s1.check_result()
