@@ -1,0 +1,45 @@
+# 1. Integer
+age = 20
+
+# 2. Float
+percentage = 85.5
+
+# 3. Complex
+number = 3 + 4j
+
+# 4. String
+name = "Poojitha"
+
+# 5. Boolean
+is_student = True
+
+# 6. List
+fruits = ["Apple", "Banana", "Mango"]
+
+# 7. Tuple
+numbers = (10, 20, 30)
+
+# 8. Set
+unique_numbers = {10, 20, 30}
+
+# 9. Dictionary
+student = {
+    "name": "Poojitha",
+    "age": 20,
+    "marks": 90
+}
+
+# 10. None
+result = None
+
+# Printing values and their data types
+print(age, type(age))
+print(percentage, type(percentage))
+print(number, type(number))
+print(name, type(name))
+print(is_student, type(is_student))
+print(fruits, type(fruits))
+print(numbers, type(numbers))
+print(unique_numbers, type(unique_numbers))
+print(student, type(student))
+print(result, type(result))
