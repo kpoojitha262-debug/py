@@ -2,10 +2,8 @@
 a=10
 print(a)
 
-
 a=b=c=d=100
 print(c)
-
 
 a=1,2,3
 print(a)
