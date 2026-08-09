@@ -1,0 +1,3 @@
+a = 'GeeksforGeeks'
+upper = lambda x: x.upper()  
+print(upper(a))
