@@ -1,0 +1,14 @@
+my_array = [1, 2, 3, 4, 5]
+def display_array():
+print("Current array:", my_array)
+print("Initial array:")
+display_array()
+my_array.append(6)
+print("\nAfter appending 6:")
+display_array()
+my_array.insert(2, 10)
+print("\nAfter inserting 10 at index 2:")
+display_array()
+my_array.reverse()
+print("\nAfter reversing the array:")
+display_array()
