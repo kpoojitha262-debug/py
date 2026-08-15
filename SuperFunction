@@ -1,0 +1,9 @@
+class Parent:
+   def show(self):
+      print("This is parent class method")
+class Child(Parent):
+   def show(self):
+      super.show()
+      print("This is Child Class Method") 
+obj = Child()
+obj.show()
