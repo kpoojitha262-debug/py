@@ -1,0 +1,5 @@
+a = "Hello, how are you?"
+b = [word for word in a.split()]  
+c = "-".join(b)
+print(b)
+print(c)
