@@ -1,0 +1,5 @@
+s = set(["a", "b", "c"])
+print("Normal Set:", s)
+
+fs = frozenset(["e", "f", "g"])
+print("Frozen Set:", fs)
